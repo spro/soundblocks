@@ -1,6 +1,6 @@
 soundblocks
 ===========
 
-Requires [https://github.com/spro/spromata/blob/master/basic.py](spromata.basic).
+Requires [spromata.basic](https://github.com/spro/spromata/blob/master/basic.py).
 
-!(/screenshot.png)
+![](/screenshot.png)
