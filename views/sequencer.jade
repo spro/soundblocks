@@ -1,0 +1,17 @@
+!!!
+html
+    body
+        title Hi
+        script(src='/socket.io.js')
+        script(src='/jquery.js')
+        script(src='/underscore.min.js')
+        script(src='/backbone.js')
+        script
+            window.socket = io.connect('http://localhost');
+            window.socket.emit('subscribe');
+        script(src='/sequencer.js')
+        link(rel='stylesheet', href='/styles.css')
+    body
+        input#tempo(value="0.3")
+        button#add-grid +
+        #grids

@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #304458;
+  padding: 10px; }
+
+#grids {
+  margin-top: 10px; }
+
+.grid {
+  margin-bottom: 10px;
+  clear: both; }
+
+.controls {
+  float: right;
+  width: 20%; }
+
+.cols {
+  float: left;
+  width: 76%;
+  background: #304458;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background: #151515; }
+
+.col {
+  display: inline-block; }
+  .col.active {
+    background: #385d83 !important;
+    border-radius: 10px; }
+  .col:nth-child(2n-1) {
+    background: #222222; }
+  .col:nth-child(8n-7) {
+    background: #373737; }
+
+input, button, select {
+  -webkit-appearance: none;
+  border-radius: 2px;
+  padding: 10px;
+  border: none;
+  background: #dddddd;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+  color: #333333;
+  outline: none;
+  margin: 0 10px 0 0;
+  width: 75px;
+  box-sizing: border-box; }
+
+.controls input, .controls button, .controls select {
+  display: inline-block;
+  margin: 0 10px 10px 0; }
+
+a {
+  color: white; }
+
+.box {
+  display: block;
+  height: 20px;
+  width: 20px;
+  background: none; }
+  .box.on {
+    border-radius: 10px;
+    background: white; }
+
+.col.active .box.on {
+  background: white;
+  border-radius: 5px; }
